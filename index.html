@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ekendra Yadav professional portfolio website">
+    <title>Ekendra Yadav | Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header contains the portfolio name and the main navigation -->
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+            <h1 class="site-title">Ekendra Yadav</h1>
+
+            <!-- Navigation links connect the main sections of the single-page portfolio -->
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main element contains the primary content of the portfolio -->
+    <main>
+
+        <!-- Home section introduces the purpose of the portfolio -->
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <p class="eyebrow">Professional Portfolio</p>
+                    <h2>Data, Technology, and Practical Problem Solving</h2>
+                    <p>
+                        This portfolio presents academic work, technical skills,
+                        and selected projects related to software and data.
+                    </p>
+                    <a class="button" href="#projects">View Projects</a>
+                </div>
+
+                <aside class="hero-card">
+                    <h3>Portfolio Focus</h3>
+                    <p>Web development, data analysis, machine learning, and generative AI.</p>
+                </aside>
+            </div>
+        </section>
+
+        <!-- About section provides background information -->
+        <section id="about" class="content-section">
+            <div class="container two-column">
+                <div>
+                    <p class="section-label">About</p>
+                    <h2>Academic and Technical Background</h2>
+                </div>
+                <div>
+                    <p>
+                        The portfolio presents a combination of academic learning and
+                        practical technology projects. The work includes programming,
+                        data analysis, machine learning, and web development.
+                    </p>
+                    <p>
+                        The website uses semantic HTML and custom CSS to organize
+                        information in a clear and responsive layout.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education section presents academic information -->
+        <section id="education" class="content-section alternate-section">
+            <div class="container">
+                <p class="section-label">Education</p>
+                <h2>Academic Background</h2>
+
+                <article class="education-card">
+                    <h3>International American University</h3>
+                    <p>CSE 230: Web Design and Web Development</p>
+                    <p>Academic coursework includes programming, web development, data structures, and technology projects.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Skills section uses article elements for separate skill cards -->
+        <section id="skills" class="content-section">
+            <div class="container">
+                <p class="section-label">Skills</p>
+                <h2>Technical Skills</h2>
+
+                <div class="card-grid skills-grid">
+                    <article class="card">
+                        <h3>Python</h3>
+                        <p>Programming, data processing, automation, and machine learning practice.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Data Analysis</h3>
+                        <p>Data cleaning, exploratory analysis, visualization, and reporting.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Machine Learning</h3>
+                        <p>Supervised learning, model evaluation, and practical prediction projects.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Web Development</h3>
+                        <p>Semantic HTML, CSS, responsive layouts, and basic web application structure.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section contains individual project articles -->
+        <section id="projects" class="content-section alternate-section">
+            <div class="container">
+                <p class="section-label">Projects</p>
+                <h2>Selected Projects</h2>
+
+                <div class="card-grid projects-grid">
+                    <article class="card project-card">
+                        <h3>Customer Churn Prediction</h3>
+                        <p>
+                            A machine learning project that prepares customer data,
+                            trains classification models, and evaluates prediction results.
+                        </p>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Repository</a>
+                    </article>
+
+                    <article class="card project-card">
+                        <h3>Generative AI Chatbot</h3>
+                        <p>
+                            A conversational application that demonstrates the use of
+                            generative AI concepts for interactive responses.
+                        </p>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Repository</a>
+                    </article>
+
+                    <article class="card project-card">
+                        <h3>Document RAG API</h3>
+                        <p>
+                            A backend project concept for document ingestion, embeddings,
+                            retrieval, and conversational question answering.
+                        </p>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Repository</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section provides a simple form for user input -->
+        <section id="contact" class="content-section">
+            <div class="container contact-grid">
+                <div>
+                    <p class="section-label">Contact</p>
+                    <h2>Get in Touch</h2>
+                    <p>
+                        The contact form provides fields for a name, email address,
+                        and message.
+                    </p>
+                </div>
+
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" autocomplete="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer closes the page and provides a link back to the top -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Ekendra Yadav. All rights reserved.</p>
+            <a href="#top">Back to Top</a>
+        </div>
+    </footer>
+
+</body>
+</html>
